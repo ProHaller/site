@@ -1,5 +1,6 @@
 # The URL the site will be built for
-base_url = "http://127.0.0.1:1111/"
+base_url = "https://roland.fly.dev/"
+title = "Roland Haller's Site"
 
 # The theme the site will be built with
 theme = "terminimal"
@@ -9,6 +10,9 @@ compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
+# Use `rss.xml` for RSS feeds and `atom.xml` for ATOM.
+feed_filenames = ["rss.xml", "atom.xml"]
 
 # Optional: enable tags
 taxonomies = [{ name = "tags" }]
@@ -22,6 +26,12 @@ highlight_theme = "night-owl"
 
 [extra]
 # Put all your custom variables here
+
+accent_color = "orange"
+logo_text = "Roland Haller's Site"
+background_color = "red"
+enable_post_view_navigation = true
+
 ## menu is enabled by adding menu_items (optional)
 menu_items = [
   # each of these is optional, name and url are required

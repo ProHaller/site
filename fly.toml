@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for site-dark-haze-7538 on 2025-09-18T22:31:51+09:00
+# fly.toml app configuration file generated for roland on 2025-09-18T22:57:04+09:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'site-dark-haze-7538'
+app = 'roland'
 primary_region = 'nrt'
 
 [build]
