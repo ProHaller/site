@@ -1,0 +1,39 @@
+# The URL the site will be built for
+base_url = "http://127.0.0.1:1111/"
+
+# The theme the site will be built with
+theme = "terminimal"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+# Optional: enable tags
+taxonomies = [{ name = "tags" }]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+extra_syntaxes_and_themes = ["highlight_themes"]
+highlight_theme = "night-owl"
+
+[extra]
+# Put all your custom variables here
+## menu is enabled by adding menu_items (optional)
+menu_items = [
+  # each of these is optional, name and url are required
+  # $BASE_URL is going to be substituted by base_url from configuration
+  { name = "about me", url = "$BASE_URL/about" },
+  { name = "blog", url = "$BASE_URL" },
+
+  # tags should only be enabled if you have "tags" taxonomy
+  # see documentation below for more details
+  { name = "tags", url = "$BASE_URL/tags" },
+  { name = "archive", url = "$BASE_URL/archive" },
+
+  # set newtab to true to make the link open in new tab
+  { name = "github", url = "https://github.com/ProHaller/", newtab = true },
+]
