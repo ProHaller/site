@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://roland.fly.dev/"
+base_url = "https://roland.fly.dev"
 title = "Roland Haller's Site"
 
 # The theme the site will be built with
@@ -27,23 +27,26 @@ highlight_theme = "night-owl"
 [extra]
 # Put all your custom variables here
 
-accent_color = "orange"
+accent_color = "red-auto"
+background_color = "dark"
 logo_text = "Roland Haller's Site"
-background_color = "red"
+author = "Roland Haller"
 enable_post_view_navigation = true
+use_full_hack_font = true
+favicon = "img/kanikaze-logo.svg"
 
-## menu is enabled by adding menu_items (optional)
 menu_items = [
   # each of these is optional, name and url are required
   # $BASE_URL is going to be substituted by base_url from configuration
-  { name = "about me", url = "$BASE_URL/about" },
-  { name = "blog", url = "$BASE_URL" },
+  { name = "About Me", url = "$BASE_URL" },
+  { name = "Socials", url = "$BASE_URL/socials" },
+  # { name = "Blog", url = "$BASE_URL/blog" },
 
   # tags should only be enabled if you have "tags" taxonomy
   # see documentation below for more details
-  { name = "tags", url = "$BASE_URL/tags" },
-  { name = "archive", url = "$BASE_URL/archive" },
+  # { name = "tags", url = "$BASE_URL/tags" },
+  # { name = "archive", url = "$BASE_URL/archive" },
 
   # set newtab to true to make the link open in new tab
-  { name = "github", url = "https://github.com/ProHaller/", newtab = true },
-]
+  { name = "GitHub", url = "https://github.com/ProHaller/", newtab = true },
+] ## menu is enabled by adding menu_items (optional)
