@@ -67,4 +67,4 @@ The content in this blog is limited by the time, energy and motivation I find to
 If you enjoy it or find it valuable contact me and tell me as much. I like encouragements.
 Enjoy!
 
-{{ image(src="/img/ferris_hi.svg", style="width: 25%;")}}
+{{ image(src="/img/ferris/ferris_hi.svg", style="width: 25%;")}}

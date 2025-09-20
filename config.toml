@@ -40,11 +40,11 @@ menu_items = [
   # $BASE_URL is going to be substituted by base_url from configuration
   { name = "About Me", url = "$BASE_URL" },
   { name = "Socials", url = "$BASE_URL/socials" },
-  # { name = "Blog", url = "$BASE_URL/blog" },
+  { name = "Blog", url = "$BASE_URL/blog" },
 
   # tags should only be enabled if you have "tags" taxonomy
   # see documentation below for more details
-  # { name = "tags", url = "$BASE_URL/tags" },
+  { name = "tags", url = "$BASE_URL/tags" },
   # { name = "archive", url = "$BASE_URL/archive" },
 
   # set newtab to true to make the link open in new tab
