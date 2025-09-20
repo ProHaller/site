@@ -2,6 +2,9 @@
 base_url = "https://roland.fly.dev"
 title = "Roland Haller's Site"
 
+# Default language
+default_language = "en"
+
 # The theme the site will be built with
 theme = "terminimal"
 
@@ -32,15 +35,17 @@ background_color = "dark"
 logo_text = "Roland Haller's Site"
 author = "Roland Haller"
 enable_post_view_navigation = true
+post_view_navigation_prompt = """Thank you for reading! Read other posts?"""
 use_full_hack_font = true
 favicon = "img/kanikaze-logo.svg"
+
 
 menu_items = [
   # each of these is optional, name and url are required
   # $BASE_URL is going to be substituted by base_url from configuration
   { name = "About Me", url = "$BASE_URL" },
+  { name = "Posts", url = "$BASE_URL/posts" },
   { name = "Socials", url = "$BASE_URL/socials" },
-  { name = "Blog", url = "$BASE_URL/blog" },
 
   # tags should only be enabled if you have "tags" taxonomy
   # see documentation below for more details
@@ -50,3 +55,42 @@ menu_items = [
   # set newtab to true to make the link open in new tab
   { name = "GitHub", url = "https://github.com/ProHaller/", newtab = true },
 ] ## menu is enabled by adding menu_items (optional)
+
+# Multilingual configuration
+[languages.ja]
+title = "ローランド・ハラーのサイト"
+description = "ローランド・ハラー、学習者であり情熱的なRustacean"
+build_search_index = true
+generate_feeds = true
+taxonomies = [{ name = "tags" }]
+
+[languages.ja.translations]
+about = "私について"
+posts = "投稿"
+socials = "ソーシャル"
+tags = "タグ"
+home = "ホーム"
+read_more = "続きを読む"
+published_on = "公開日"
+reading_time = "分で読める"
+search = "検索"
+menu = "メニュー"
+language = "言語"
+newer_posts = "新しい投稿"
+older_posts = "古い投稿"
+
+# English translations (default language)
+[translations]
+about = "About Me"
+posts = "Posts"
+socials = "Socials"
+tags = "Tags"
+home = "Home"
+read_more = "Read more"
+published_on = "Published on"
+reading_time = "minute read"
+search = "Search"
+menu = "Menu"
+language = "Language"
+newer_posts = "Newer posts"
+older_posts = "Older posts"

@@ -1,9 +1,13 @@
 +++
 title = "About Me"
+description = "Roland Haller, learner extraordinaire and passionate Rustacean"
+template = "page.html"
 in_search_index = true
+[taxonomies]
+tags = ["roland"]
 +++
 
-_This sub-page is always a work in progress and may be updated at any time._
+_This page is always a work in progress and may be updated at any time._
 
 {{ image( src="/img/me.png", alt="Roland", position="left", style="max-width: 150px;"  ) }}
 
@@ -67,4 +71,4 @@ The content in this blog is limited by the time, energy and motivation I find to
 If you enjoy it or find it valuable contact me and tell me as much. I like encouragements.
 Enjoy!
 
-{{ image(src="/img/ferris/ferris_hi.svg", style="width: 25%;")}}
+{{ image(src="/img/ferris/ferris-hi.svg", style="width: 25%;")}}
