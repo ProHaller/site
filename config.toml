@@ -20,6 +20,23 @@ feed_filenames = ["rss.xml", "atom.xml"]
 # Optional: enable tags
 taxonomies = [{ name = "tags" }]
 
+
+# Configuration of the link checker.
+[link_checker]
+# Skip link checking for external URLs that start with these prefixes
+skip_prefixes = ["https://www.linkedin.com/"]
+
+# Skip anchor checking for external URLs that start with these prefixes
+# skip_anchor_prefixes = [
+#     "https://caniuse.com/",
+# ]
+
+# Treat internal link problems as either "error" or "warn", default is "error"
+internal_level = "error"
+
+# Treat external link problems as either "error" or "warn", default is "error"
+external_level = "warn"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -55,42 +72,3 @@ menu_items = [
   # set newtab to true to make the link open in new tab
   { name = "GitHub", url = "https://github.com/ProHaller/", newtab = true },
 ] ## menu is enabled by adding menu_items (optional)
-
-# Multilingual configuration
-[languages.ja]
-title = "ローランド・ハラーのサイト"
-description = "ローランド・ハラー、学習者であり情熱的なRustacean"
-build_search_index = true
-generate_feeds = true
-taxonomies = [{ name = "tags" }]
-
-[languages.ja.translations]
-about = "私について"
-posts = "投稿"
-socials = "ソーシャル"
-tags = "タグ"
-home = "ホーム"
-read_more = "続きを読む"
-published_on = "公開日"
-reading_time = "分で読める"
-search = "検索"
-menu = "メニュー"
-language = "言語"
-newer_posts = "新しい投稿"
-older_posts = "古い投稿"
-
-# English translations (default language)
-[translations]
-about = "About Me"
-posts = "Posts"
-socials = "Socials"
-tags = "Tags"
-home = "Home"
-read_more = "Read more"
-published_on = "Published on"
-reading_time = "minute read"
-search = "Search"
-menu = "Menu"
-language = "Language"
-newer_posts = "Newer posts"
-older_posts = "Older posts"

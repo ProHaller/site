@@ -4,7 +4,7 @@ description = "Roland Haller, learner extraordinaire and passionate Rustacean"
 template = "page.html"
 in_search_index = true
 [taxonomies]
-tags = ["roland"]
+tags = ["me"]
 +++
 
 _This page is always a work in progress and may be updated at any time._
