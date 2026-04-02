@@ -9,7 +9,9 @@ tags = ["me"]
 
 _This page is always a work in progress and may be updated at any time._
 
-{{ image( src="/img/me.png", alt="Roland", position="left", style="max-width: 150px;"  ) }}
+{{ image( src="/img/me_stylish.jpg", alt="Roland", position="left", style="max-width: 150px;"  ) }}
+
+![wakatime](https://wakatime.com/share/@f18e1908-d4bd-455e-ab9f-01ca8fec0936/39cc6eb6-4dee-4ed3-a525-f67607254ebd.svg)
 
 ## Hi
 

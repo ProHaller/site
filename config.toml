@@ -1,6 +1,7 @@
 # The URL the site will be built for
 base_url = "https://roland.fly.dev"
-title = "Roland Haller's Site"
+title = "Roland Haller aka Kanikaze🦀💨  Site"
+description = "Personal website and blog of Roland Haller aka Kanikaze, learner extraordinaire, Software Engineer, and passionate Rustacean"
 
 # Default language
 default_language = "en"
@@ -55,6 +56,7 @@ enable_post_view_navigation = true
 post_view_navigation_prompt = """Thank you for reading! Read other posts?"""
 use_full_hack_font = true
 favicon = "img/kanikaze-logo.svg"
+default_og_image = "img/why-rust/crab-sword.jpg"
 
 
 menu_items = [

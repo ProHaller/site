@@ -44,7 +44,7 @@ There also is an abundance of resources to learn both [Python](https://wiki.pyth
 
 ![](/img/why-rust/pills.png "Hands presenting a Red and a Blue pill, with C, C++, and Python and JavaScript logos respectively")
 
-## But it's not so simple though is it?
+## But it's not so simple, is it?
 
 I know some will be mad at me for lumping them together, but C and C++ barriers to entry are really high.
 They both come with very messy ecosystems, compilers, standards, variations and flavors making starting with them a daunting task.
